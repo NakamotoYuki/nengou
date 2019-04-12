@@ -39,7 +39,7 @@
 </div>
 <div class="form-group">
   <label for="detail">出来事詳細</label>
-  <textarea type="text" class="form-control" id="detail"></textarea>
+  <textarea type="text" class="form-control" id="event_detail" name="event_detail"></textarea>
 </div>
 <div class="form-group">
   <button type="submit" class="btn btn-default">作成</button>

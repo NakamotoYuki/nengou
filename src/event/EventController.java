@@ -41,6 +41,7 @@ public class EventController extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		EventBean eventbean = new EventBean();
 		eventbean.setEvent_title(request.getParameter("event_title"));
+		eventbean.setEvent_detail(request.getParameter("event_detail"));
 		request.setAttribute("eventbean", eventbean);
 		ServletContext context = getServletContext();
 		RequestDispatcher rd = context.getRequestDispatcher("/jsp/show.jsp");

@@ -8,6 +8,7 @@
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/jquery-3.2.1.slim.min.js"></script>
 <script src="../js/popper.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>元号できごと</title>
 </head>
 <body>
