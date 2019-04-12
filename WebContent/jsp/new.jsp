@@ -19,25 +19,23 @@
 
 <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse mb-40">
     <ul class="navbar-nav mr-auto w-80 container">
-	<li class="nav-item list-inline-item"><a class="nav-link"  href="/">ホーム</a></li>
-	<li class="nav-item list-inline-item"><a class="nav-link"  href="#">明治</a></li>
-	<li class="nav-item list-inline-item"><a class="nav-link"  href="#">大正</a></li>
-	<li class="nav-item list-inline-item"><a class="nav-link"  href="#">昭和</a></li>
-	<li class="nav-item list-inline-item"><a class="nav-link"  href="#">平成</a></li>
-	<li class="nav-item list-inline-item"><a class="nav-link"  href="#">令和</a></li>
+		<li class="nav-item list-inline-item"><a class="nav-link"  href="/">ホーム</a></li>
+		<li class="nav-item list-inline-item"><a class="nav-link"  href="#">明治</a></li>
+		<li class="nav-item list-inline-item"><a class="nav-link"  href="#">大正</a></li>
+		<li class="nav-item list-inline-item"><a class="nav-link"  href="#">昭和</a></li>
+		<li class="nav-item list-inline-item"><a class="nav-link"  href="#">平成</a></li>
+		<li class="nav-item list-inline-item"><a class="nav-link"  href="#">令和</a></li>
     </ul>
 </nav>
 
 <div class ="container w-80">
 <div class="row">
-	<div class="col-md-8 order-md-1">
+	<form action="../EventController" class="col-md-8 order-md-1" method="POST">
 		<div class="center-block">
 			<h5>出来事の新規追加</h5>
-
-
 			<div class="form-group">
   <label for="title">出来事タイトル</label>
-  <input type="text" class="form-control" id="title">
+  <input type="text" class="form-control" id="event_title" name="event_title">
 </div>
 <div class="form-group">
   <label for="detail">出来事詳細</label>
@@ -50,7 +48,7 @@
   			<div>
 			</div>
 		</div>
-	</div>
+	</form>
 	<div class="col-md-4 order-md-2">
 		<div class="center-block">
 			<h5>このサイトについて</h5>

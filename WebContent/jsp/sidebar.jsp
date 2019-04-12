@@ -8,6 +8,12 @@
 			</div>
 		</div>
 		<div class="center-block">
+			<h5>このサイトについて</h5>
+  			<div class="center-block">
+				<p>このサイトはユーザー参加型の歴史年表です。</p>
+			</div>
+		</div>
+		<div class="center-block">
 			<h5>出来事の新規追加</h5>
   			<div class="center-block">
 				<p>過去起きた出来事を新規で自由に登録することができます。</p>
