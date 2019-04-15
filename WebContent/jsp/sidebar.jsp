@@ -7,12 +7,15 @@
 				<p>このサイトはユーザー参加型の歴史年表です。</p>
 			</div>
 		</div>
+
 		<div class="center-block">
-			<h5>このサイトについて</h5>
+			<h5>ユーザー登録</h5>
   			<div class="center-block">
-				<p>このサイトはユーザー参加型の歴史年表です。</p>
+				<p>ユーザー登録を行うと出来事の新規追加をすることができます。</p>
+				<a class="btn btn-primary" href="enroll.jsp">ユーザー登録</a>
 			</div>
 		</div>
+
 		<div class="center-block">
 			<h5>出来事の新規追加</h5>
   			<div class="center-block">

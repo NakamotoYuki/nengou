@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -33,9 +34,13 @@
 	<form action="../EventController" class="col-md-8 order-md-1" method="POST">
 		<div class="center-block">
 			<h5>出来事の新規追加</h5>
-			<div class="form-group">
+<div class="form-group">
   <label for="title">出来事タイトル</label>
   <input type="text" class="form-control" id="event_title" name="event_title">
+</div>
+<div class="form-group">
+  <label for="title">年月日</label>
+  <input type="text" class="form-control" id="event_year" name="event_year">
 </div>
 <div class="form-group">
   <label for="detail">出来事詳細</label>

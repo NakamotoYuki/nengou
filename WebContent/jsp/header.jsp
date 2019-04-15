@@ -17,11 +17,12 @@
 </div>
 
 <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse mb-40">
-        <ul class="navbar-nav mr-auto w-80 container">
-	<li class="nav-item list-inline-item"><a class="nav-link"  href="#">明治</a></li>
-	<li class="nav-item list-inline-item"><a class="nav-link"  href="#">大正</a></li>
-	<li class="nav-item list-inline-item"><a class="nav-link"  href="#">昭和</a></li>
-	<li class="nav-item list-inline-item"><a class="nav-link"  href="#">平成</a></li>
-	<li class="nav-item list-inline-item"><a class="nav-link"  href="#">令和</a></li>
-        </ul>
+	<ul class="navbar-nav mr-auto w-80 container">
+		<li class="nav-item list-inline-item"><a class="nav-link"  href="#">明治</a></li>
+		<li class="nav-item list-inline-item"><a class="nav-link"  href="#">大正</a></li>
+		<li class="nav-item list-inline-item"><a class="nav-link"  href="#">昭和</a></li>
+		<li class="nav-item list-inline-item"><a class="nav-link"  href="#">平成</a></li>
+		<li class="nav-item list-inline-item"><a class="nav-link"  href="#">令和</a></li>
+    </ul>
+    <a class="btn btn-primary" href="login.jsp">ログイン</a>
 </nav>
