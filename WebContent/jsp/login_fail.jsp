@@ -7,15 +7,9 @@
 <div class="row">
 	<div class="col-md-8 order-md-1">
 		<div class="center-block">
-			<form action="../Login" method="POST">
-				<dl>
-					<dt>ユーザー名</dt>
-					<dd><input type="text" name="user_name"></dd>
-					<dt>パスワード</dt>
-					<dd><input type="text" name="user_password"></dd>
-				</dl>
-				<input type="submit" value="登録">
-			</form>
+			<h2>ログイン失敗</h2>
+			<p>ユーザー名もしくはパスワードが異なります。</p>
+			<p><a href="/jsp/login.jsp">再度ログインしなおしてください。</a></p>
 		</div>
 	</div>
 <jsp:include page="sidebar.jsp" />
