@@ -39,8 +39,18 @@
   <input type="text" class="form-control" id="event_title" name="event_title">
 </div>
 <div class="form-group">
+  <label for="title">元号</label>
+      <select class="form-control" id="nengou" name="nengou">
+        <option value="明治">明治</option>
+        <option value="大正">大正</option>
+        <option value="昭和">昭和</option>
+        <option value="平成">平成</option>
+        <option value="令和" selected="selected">令和</option>
+      </select>
+</div>
+<div class="form-group">
   <label for="title">年月日</label>
-  <input type="text" class="form-control" id="event_year" name="event_year">
+  <input type="date" class="form-control" id="event_date" name="event_date">
 </div>
 <div class="form-group">
   <label for="detail">出来事詳細</label>
