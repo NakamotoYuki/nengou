@@ -1,4 +1,4 @@
-package event;
+package user;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -11,7 +11,7 @@ import javax.sql.DataSource;
 public class ResourceFinder {
 	private static DataSource dataSource = null;
 
-	public Connection getConnection() throws SQLException, NamingException{
+	public Connection getConnectionpuser() throws SQLException, NamingException{
 
 		if(dataSource == null){
 			try{

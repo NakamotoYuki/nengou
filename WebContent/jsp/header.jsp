@@ -3,11 +3,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link rel="stylesheet" href="../css/bootstrap.min.css">
-<link rel="stylesheet" href="../css/custom.css">
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/jquery-3.2.1.slim.min.js"></script>
-<script src="../js/popper.min.js"></script>
+<link rel="stylesheet" href="http://localhost:8080/nengou/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://localhost:8080/nengou/css/custom.css">
+<script src="http://localhost:8080/nengou/js/bootstrap.min.js"></script>
+<script src="http://localhost:8080/nengou/js/jquery-3.2.1.slim.min.js"></script>
+<script src="http://localhost:8080/nengou/js/popper.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>元号できごと</title>
 </head>

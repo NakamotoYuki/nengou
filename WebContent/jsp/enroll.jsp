@@ -8,16 +8,29 @@
 	<div class="col-md-8 order-md-1">
 		<div class="center-block">
 			<form action="../RegistController" method="POST">
-				<dl>
-					<dt>ユーザー名</dt>
-					<dd><input type="text" name="user_name"></dd>
-					<dt>メールアドレス</dt>
-					<dd><input type="text" name="user_mail"></dd>
-					<dt>パスワード</dt>
-					<dd><input type="text" name="user_password"></dd>
-				</dl>
-				<input type="submit" value="登録">
-			</form>
+				<div class="center-block">
+					<h5>新規ユーザー登録</h5>
+					<div class="form-group">
+  						<label for="title">ユーザー名</label>
+  						<input type="text" class="form-control"  name="user_name">
+					</div>
+
+					<div class="form-group">
+  						<label for="title">メールアドレス</label>
+  						<input type="text" class="form-control" name="user_mail">
+					</div>
+
+					<div class="form-group">
+					  <label for="user_password">パスワード</label>
+					  <input type="password" class="form-control" id="user_password" name="user_password">
+					</div>
+					<div class="form-group">
+					  <button type="submit" class="btn btn-default">作成</button>
+					</div>
+  				<div>
+			</div>
+		</div>
+		</form>
 		</div>
 	</div>
 <jsp:include page="sidebar.jsp" />

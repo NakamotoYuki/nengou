@@ -31,11 +31,11 @@
 
 <div class ="container w-80">
 <div class="row">
-	<form action="../EventController" class="col-md-8 order-md-1" method="POST">
+<form action="../EventController" class="col-md-8 order-md-1" method="POST">
 		<div class="center-block">
 			<h5>出来事の新規追加</h5>
 <div class="form-group">
-  <label for="title">出来事タイトル</label>
+  <label for="event_title">出来事タイトル</label>
   <input type="text" class="form-control" id="event_title" name="event_title">
 </div>
 <div class="form-group">
@@ -47,6 +47,10 @@
         <option value="平成">平成</option>
         <option value="令和" selected="selected">令和</option>
       </select>
+</div>
+<div class="form-group">
+  <label for="title">元号年</label>
+  <input type="number" class="form-control" id="nengou_nen" name="nengou_nen">
 </div>
 <div class="form-group">
   <label for="title">年月日</label>

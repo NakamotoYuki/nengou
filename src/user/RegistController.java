@@ -1,6 +1,8 @@
 package user;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
@@ -16,13 +18,21 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/RegistController")
 public class RegistController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.setCharacterEncoding("UTF-8");
+		Calendar calendar = Calendar.getInstance();
+		SimpleDateFormat simpleDataFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	    System.out.println(simpleDataFormat.format(calendar.getTime()));
+	    String crated_at = simpleDataFormat.format(calendar.getTime());
+	    String updated_at = simpleDataFormat.format(calendar.getTime());
 
-		User user = new User();
-		user.setUser_name(request.getParameter("user_name"));
-		user.setUser_name(request.getParameter("user_mail"));
+	    request.setCharacterEncoding("UTF-8");
 
-		request.setAttribute("user", user);
+		UserBean userbean = new UserBean();
+		userbean.setUser_name(request.getParameter("user_name"));
+		userbean.setUser_mail(request.getParameter("user_mail"));
+		userbean.setUser_password(request.getParameter("user_password"));
+		userbean.insertUserData(userbean.getUser_name(), userbean.getUser_mail(), userbean.getUser_password(), crated_at, updated_at);
+
+		request.setAttribute("user", userbean);
 
 		ServletContext context=getServletContext();
 		RequestDispatcher rd = context.getRequestDispatcher("/jsp/regist_comp.jsp");
