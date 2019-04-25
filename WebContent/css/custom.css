@@ -7,3 +7,11 @@ h5 {
 .mb-40{
 	margin-bottom: 40px;
 }
+
+.avatar{
+	width: 25%;
+}
+
+.center{
+	text-align: center;
+}

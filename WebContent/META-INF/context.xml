@@ -6,8 +6,8 @@
 		auth="Container"
 		type="javax.sql.DataSource"
 		driverClassName="com.mysql.jdbc.Driver"
-		url="jdbc:mysql://127.0.0.1:3306/nengou?nengouSSL=false"
-		username="root"
-		password="rootpass"
+		url="jdbc:mysql://fugfonv8odxxolj8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/tfms4zm3z2fl8fj7?SSL=false"
+		username="u40e2ux63ja9cmvq"
+		password="n4pyridlag0s7tdj"
 	/>
 </Context>

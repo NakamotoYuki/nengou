@@ -144,7 +144,7 @@ public class EventBean implements Serializable {
 				eb.setId(rs.getInt("id"));
 				eb.setEvent_title(rs.getString("title"));
 				eb.setEvent_detail(rs.getString("detail"));
-				eb.setNengou_nen(rs.getString("nengou"));
+				eb.setNengou(rs.getString("nengou"));
 				eb.setNengou_nen(rs.getString("nengou_nen"));
 				eb.setEvent_date(rs.getString("event_date"));
 				eventlist.add(eb);

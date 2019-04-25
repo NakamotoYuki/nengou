@@ -14,7 +14,7 @@
 	<c:forEach var="eventbean" items="${eventbean}">
 		<tr>
   <dt class="col-sm-3">
-	<span class=gengou>${eventbean.nengou }${eventbean.nengou_nen }</span><br>
+	<span class=gengou>${eventbean.nengou } ${eventbean.nengou_nen }年</span><br>
 	<span class=seireki>${eventbean.event_date }</span>
   </dt>
   <dd class="col-sm-9">

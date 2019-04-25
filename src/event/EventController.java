@@ -101,7 +101,7 @@ public class EventController extends HttpServlet {
 
 		request.setAttribute("eventbean", eventbean);
 		ServletContext context = getServletContext();
-		RequestDispatcher rd = context.getRequestDispatcher("/jsp/index.jsp");
+		RequestDispatcher rd = context.getRequestDispatcher("/jsp/new.jsp");
 		rd.forward(request, response);
 	}
 
